@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#menu-0 .navbar-toggler {
+  color: #000;
+}
+#menu-0 .navbar-brand {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+#slider-1 H2 {
+  color: #fff8e0;
+}
+#content1-4 P {
+  font-size: 20px;
+}
+#slider2-5 P {
+  color: #000000;
+}
+#slider2-5 H2 {
+  color: #fff8e0;
+}
+#content5-9 P {
+  font-size: 20px;
+}
