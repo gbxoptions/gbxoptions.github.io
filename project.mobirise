@@ -9,7 +9,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 12,
+    "uniqCompNum": 13,
     "versionPublish": "4.3.2"
   },
   "pages": {
@@ -23,6 +23,81 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/2018-23-4-04-50-537-720x709.png",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/2018-02-24-19-05-57-300x168.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 3",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/picsart-04-23-09.52.01-2000x1000.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": false,
+                "title": "Slide 2",
+                "contentAlign": "left",
+                "text": "<b>Trade with GBXOPTIONS chain company and get the latest gift packs in 9 days of investment period</b>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/images-16-470x313.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "JOIN THE AWARD WINNING BROKER TODAY",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-c",
+          "_styles": {
+            "H2": {
+              "color": "#fff8e0"
+            },
+            "P": {
+              "color": "#d8d4d1"
+            },
+            "B": {
+              "color": "#5cb85c"
+            }
+          }
+        },
         {
           "_params": {
             "logo": true,
@@ -70,64 +145,6 @@
           }
         },
         {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#ffffff",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/images-25-275x183.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": true,
-                "title": "WELCOME TO THE LEADING BINARY OPTIONS",
-                "contentAlign": "right",
-                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/images-468x314.jpg",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": true,
-                "title": "Crypto currency",
-                "contentAlign": "left",
-                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Multiple &nbsp;payment Platform</a> "
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/images-16-470x313.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": true,
-                "title": "JOIN THE AWARD WINNING BROKER",
-                "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Easy to Trade</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Customer Support</a>"
-              }
-            ]
-          },
-          "articleLayout": false,
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_anchor": "slider-1",
-          "_styles": {
-            "H2": {
-              "color": "#fff8e0"
-            }
-          }
-        },
-        {
           "_params": {
             "showImages": true,
             "showTitles": true,
@@ -137,7 +154,7 @@
             "paddingBottom": 3,
             "columns": 4,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -324,7 +341,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -332,7 +349,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "header": "What Our Fantastic Users Say",
+          "header": "TESTIMONIES",
           "items": [
             {
               "authorName": "HARDY S.",
@@ -381,7 +398,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-763x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -394,7 +411,7 @@
             "overlayOpacity": 0.7
           },
           "title": "Easy to Use!",
-          "caption": "<p>(1) Make your Deposit &gt; (2) Trade&gt; (3) Withdrawal</p><p>INTRODUCING THE ASIC</p><p>Get the Asic Bitcoin Mining Hardware tool as a promo return to your investment; GBX options ensures Premium and Ultimate users a gift delivery of the latest mining technology, maximizing your profits over 95%</p>",
+          "caption": "<p>(1) Make your Deposit &gt; (2) Trade&gt; (3) Withdrawal</p><p>INTRODUCING THE ACIS</p><p>Get the Asic Bitcoin Mining Hardware tool as a promo return to your investment; GBX options ensures Premium and Ultimate users a gift delivery of the latest mining technology, maximizing your profits over 75%</p>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -417,7 +434,7 @@
             "paddingBottom": 3,
             "showButtons": false,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#FFF8E0",
@@ -437,18 +454,18 @@
           "currency2": "$",
           "currency3": "$",
           "currency4": "$",
-          "price1": "550",
-          "price2": "1200",
+          "price1": "250",
+          "price2": "550",
           "price3": "3,000",
           "price4": "5,000",
-          "period1": "9 days",
-          "period2": "9 days",
-          "period3": "9 days",
-          "period4": "9 days",
+          "period1": "7 days",
+          "period2": "7 days",
+          "period3": "7 days",
+          "period4": "7 days",
           "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>$4,000 </b>&nbsp;Return</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>15 GB</b> Bandwidth</li></ul>",
-          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>&nbsp;$25,500</b>&nbsp;Return</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>20 GB</b> Bandwidth</li></ul>",
-          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>$150,000 </b>&nbsp;Return</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>50 GB</b> Bandwidth</li></ul>",
-          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>$460,000</b>&nbsp;Return</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>1TB GB</b> Bandwidth</li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>&nbsp;$9,500</b>&nbsp;Return</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>20 GB</b> Bandwidth</li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>$30,000 </b>&nbsp;Return</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>50 GB</b> Bandwidth</li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>$160,000</b>&nbsp;Return</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>1TB GB</b> Bandwidth</li></ul>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">Demo</a>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Demo</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">Demo</a>",
@@ -470,7 +487,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -497,7 +514,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#37383e",
