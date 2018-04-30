@@ -93,14 +93,14 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/watermark-2018-04-30-12-05-23-512x384.jpg",
+                "image": "@PROJECT_PATH@/assets/images/apple-tests-20171123-7-1080x1350.jpg",
                 "active": true,
                 "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "title": "Slide 2",
+                "showText": true,
+                "showTitle": true,
+                "title": "<p>Trade !&nbsp;&nbsp;&nbsp;&nbsp;WIN&nbsp;&nbsp;&nbsp;&nbsp;!&nbsp; &nbsp; Gift Packages</p>",
                 "contentAlign": "left",
-                "text": "<b>Trade with GBXOPTIONS chain company and get the latest gift packs in 9 days of investment period</b>",
+                "text": "<b>Trade with GREENBRIER chain company and get the latest gift packs in 9 days of investment period</b>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
               },
               {
@@ -128,7 +128,7 @@
               "color": "#000000"
             },
             "P": {
-              "color": "#d8d4d1"
+              "color": "#000000"
             },
             "B": {
               "color": "#5cb85c"
