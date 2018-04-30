@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+#header1-f H1 {
+  color: #fff8e0;
+}
 #slider-c H2 {
   color: #000000;
 }
