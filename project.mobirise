@@ -9,10 +9,11 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 16,
-    "versionPublish": "4.7.2",
+    "uniqCompNum": 17,
+    "versionPublish": "4.8.1",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "siteFonts": []
   },
   "pages": {
     "index.html": {
@@ -515,6 +516,31 @@
           "_anchor": "pricing-table1-7"
         },
         {
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "postToLoad": 3,
+            "facebook": "bitcoin",
+            "twitter": "bitcoin",
+            "google": "bitcoin",
+            "youtube": "https://youtu.be/cFj72hrUZt4",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "alias": "social-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "feed",
+          "_anchor": "feed-g"
+        },
+        {
           "_inherit": "msg-box1",
           "_params": {
             "showTitle": true,
@@ -560,7 +586,7 @@
             "overlayOpacity": 0.8
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\">Contact Us</a>",
-          "text1": "<strong>Address</strong><br>Suite 834 Europort Gibraltar GX11 1AA<br><br>\n<strong>Contacts</strong><br>\nEmail: support@gbxoptions.com<br>\nPhone: +1 (786) 408 2971<br>",
+          "text1": "<strong>Address</strong><br>Suite 834 Europort Gibraltar GX11 1AA<br><br>\n<strong>Contacts</strong><br>\nEmail: support@gbxoptions.com<br>\nPhone: +1 (786) 408 2971<br>Whatsapp: +1 (646) 817 6495",
           "text2": "<ul></ul>",
           "form": {
             "title": "MESSAGE",
