@@ -97,7 +97,7 @@
                 "image": "@PROJECT_PATH@/assets/images/apple-tests-20171123-7-1080x1350.jpg",
                 "active": true,
                 "showButtons": false,
-                "showText": true,
+                "showText": false,
                 "showTitle": true,
                 "title": "<p>Trade !&nbsp;&nbsp;&nbsp;&nbsp;WIN&nbsp;&nbsp;&nbsp;&nbsp;!&nbsp; &nbsp; Gift Packages</p>",
                 "contentAlign": "left",
@@ -463,59 +463,6 @@
           }
         },
         {
-          "_params": {
-            "firstType": "bg-success",
-            "secondType": "bg-warning",
-            "thirdType": "bg-danger",
-            "fourthType": "bg-primary",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showButtons": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#FFF8E0",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title1": "Standard",
-          "title2": "Business",
-          "title3": "Premium",
-          "title4": "Ultimate",
-          "currency1": "$",
-          "currency2": "$",
-          "currency3": "$",
-          "currency4": "$",
-          "price1": "550",
-          "price2": "1,050",
-          "price3": "4,000",
-          "price4": "10,000",
-          "period1": "9 days",
-          "period2": "9 days",
-          "period3": "9 days",
-          "period4": "9 days",
-          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>$4,000 </b>&nbsp;Return</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>15 GB</b> Bandwidth</li></ul>",
-          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>&nbsp;$16,500</b>&nbsp;Return</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>20 GB</b> Bandwidth</li></ul>",
-          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>$50,000 </b>&nbsp;Return</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>50 GB</b> Bandwidth</li></ul>",
-          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>$160,000</b>&nbsp;Return</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>1TB GB</b> Bandwidth</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">Demo</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Demo</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">Demo</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Demo</a>",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "pricing-table1",
-          "_anchor": "pricing-table1-7"
-        },
-        {
           "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
           "_params": {
             "paddingTop": 0,
@@ -585,7 +532,7 @@
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\">Contact Us</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Register</a>",
           "text1": "<strong>Address</strong><br>Suite 834 Europort Gibraltar GX11 1AA<br><br>\n<strong>Contacts</strong><br>\nEmail: support@gbxoptions.com<br>\nPhone: +1 (786) 408 2971<br>Whatsapp: +1 (646) 817 6495",
           "text2": "<ul></ul>",
           "form": {
@@ -596,9 +543,9 @@
             },
             "fields": {
               "name": {
-                "visible": false,
+                "visible": true,
                 "title": "Name",
-                "customTitle": "Name*"
+                "customTitle": "Full Name*"
               },
               "email": {
                 "visible": true,
@@ -606,7 +553,7 @@
                 "customTitle": "Email*"
               },
               "phone": {
-                "visible": false,
+                "visible": true,
                 "title": "Phone",
                 "customTitle": "Phone"
               },
